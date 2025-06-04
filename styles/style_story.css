@@ -1,0 +1,337 @@
+/* Базовые стили */
+body {
+	font-family: 'Alumni Sans', sans-serif;
+	color: #ffb488;
+	margin: 0;
+	padding: 0;
+	line-height: 1.3;
+	font-weight: 700;
+	position: relative;
+	min-height: 100vh;
+	background: url('../img/photo2.PNG');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+}
+
+/* navigation */
+nav a button {
+	font-family: 'Alumni Sans', sans-serif;
+	background-color: rgba(255, 158, 0, 0.2);
+	color: white;
+	border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 47px;
+	border-radius: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	opacity: 0.8;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+nav button:hover {
+	opacity: 1;
+	transform: translateY(-3px);
+}
+nav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	background-color: #6e452b;
+}
+
+/* Основной контент */
+.content {
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 20px;
+	background-color: rgba(110, 69, 43, 0.8);
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+	position: relative;
+}
+
+/* Секция сюжета */
+.plot-section h1,
+.levels-section h1 {
+	font-size: 48px;
+	color: #ff9e00;
+	text-align: center;
+	margin-bottom: 30px;
+	text-transform: uppercase;
+}
+
+.text-block p {
+	font-size: 24px;
+	margin-bottom: 20px;
+	text-align: left;
+	line-height: 1.5;
+}
+
+.endings-list {
+	font-size: 24px;
+	list-style-type: none;
+	padding-left: 0;
+	margin: 25px 0;
+}
+
+.endings-list li {
+	margin-bottom: 15px;
+	position: relative;
+	padding-left: 30px;
+	line-height: 1.5;
+}
+
+.endings-list li::before {
+	content: '-';
+	position: absolute;
+	left: 0;
+	color: #ff9e00;
+}
+
+.ending-type {
+	color: #ff9e00;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+/* Секция уровней */
+.levels-intro {
+	font-size: 24px;
+	color: #ff9e00;
+	text-align: center;
+	margin-bottom: 30px;
+	opacity: 0.8;
+}
+
+.puzzles-list {
+	font-size: 24px;
+	list-style-type: none;
+	padding-left: 0;
+	margin: 25px 0;
+}
+
+.puzzles-list li {
+	margin-bottom: 20px;
+	position: relative;
+	padding-left: 30px;
+	line-height: 1.5;
+}
+
+.puzzles-list li::before {
+	content: '-';
+	position: absolute;
+	left: 0;
+	color: #ff9e00;
+}
+
+.puzzle-name {
+	color: #ff9e00;
+	display: inline-block;
+	margin-right: 5px;
+}
+/* Стили для блока с сюжетом */
+.plot-section {
+	position: relative;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.plot-title {
+	color: #ff9e00;
+	text-align: center;
+	font-family: 'Alumni Sans', sans-serif;
+	font-size: 96px;
+	font-weight: 700;
+	margin: 0 0 50px 0;
+	text-transform: uppercase;
+}
+
+.plot-container {
+	background: rgba(110, 69, 43, 0.4);
+	border-radius: 31px;
+	padding: 2px;
+	margin-top: 10px;
+}
+
+.plot-content {
+	color: #ffb488;
+	font-family: 'Alumni Sans', sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	line-height: 1.3;
+}
+
+.plot-text {
+	margin-bottom: 30px;
+	padding: 3%;
+	padding-bottom: 0;
+}
+
+.endings-list {
+	list-style-type: none;
+	padding-left: 20px;
+	margin: 40px 0;
+}
+
+.ending-item {
+	position: relative;
+	padding-left: 40px;
+	margin-bottom: 25px;
+}
+
+.ending-item::before {
+	content: '•';
+	color: #ff9e00;
+	font-size: 50px;
+	position: absolute;
+	left: 0;
+	top: -5px;
+}
+
+.ending-type {
+	color: #ff9e00;
+	display: inline-block;
+	margin-right: 10px;
+}
+
+
+/* Секция с сюжетом */
+.story-section {
+	position: relative;
+	max-width: 1400px;
+	margin: 0 auto;
+	padding: 20px;
+}
+
+.story-title {
+	color: #ff9e00;
+	text-align: center;
+	font-family: 'Alumni Sans', sans-serif;
+	font-size: 96px;
+	font-weight: 700;
+	margin: 0 0 115px 0;
+	position: relative;
+	left: 50%;
+	transform: translateX(-50%);
+	width: fit-content;
+}
+
+.story-content-wrapper {
+	position: relative;
+	width: 1336px;
+	height: 750px;
+	margin: 0 auto;
+}
+
+.story-background {
+	background: #6e452b;
+	border-radius: 31px;
+	opacity: 0.4;
+	width: 100%;
+	height: 713px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
+
+.story-content {
+	color: #ffb488;
+	font-family: 'Alumni Sans', sans-serif;
+	font-size: 42px;
+	font-weight: 700;
+	position: relative;
+	padding: 40px;
+	width: 100%;
+	height: 100%;
+}
+
+.story-paragraph {
+	margin-bottom: 30px;
+	line-height: 1.3;
+}
+
+.endings-list {
+	list-style-type: disc;
+	padding-left: 1em;
+	margin: 30px 0;
+	list-style-type: none; /* Убираем точки */
+	padding-left: 0; /* Убираем стандартный отступ */
+	margin: 30px 0;
+}
+
+.ending-item {
+	margin-bottom: 20px;
+	line-height: 1.3;
+	position: relative;
+	padding-left: 0; /* Убираем отступ слева */
+	margin-bottom: 25px;
+	color: #ffb488; /* Цвет текста */
+	font-size: 42px; /* Размер текста */
+	font-weight: 700; /* Жирность текста */
+}
+
+.levels-description-container {
+	max-width: 1336px;
+	margin: 0 auto;
+	position: relative;
+	padding-top: 100px;
+}
+
+.levels-main-title {
+	color: #ff9e00;
+	font-family: 'Alumni Sans', sans-serif;
+	font-size: 96px;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 60px;
+}
+
+.levels-highlight-box {
+	background: rgba(231, 150, 19, 0.445);
+	border-radius: 43px;
+	padding: 20px 30px;
+	margin-bottom: 40px;
+}
+
+.levels-highlight-text {
+	color: white;
+	font-family: 'Alumni Sans', sans-serif;
+	font-size: 40px;
+	font-weight: 700;
+	opacity: 0.8;
+	margin: 0;
+}
+
+.levels-content-section {
+	padding: 0 20px;
+}
+
+.levels-features-list {
+	font-family: 'Alumni Sans', sans-serif;
+	font-size: 48px;
+	font-weight: 700;
+	list-style-type: disc;
+	padding-left: 1em;
+	color: #ffb488;
+}
+
+.levels-features-list li {
+	margin-bottom: 30px;
+}
+
+.levels-feature-name {
+	color: #ff9e00;
+}
+
+.levels-memory-zone {
+	color: #ff9e00;
+}

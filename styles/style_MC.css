@@ -1,0 +1,144 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Alumni Sans', sans-serif;
+	background-color: #6e452b;
+	color: white;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	width: 100%;
+	min-height: 1910px;
+	background: url(../img/IMG_9134\ \(2\).PNG);
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+/* header */
+/* navigation */
+nav a button {
+	font-family: 'Alumni Sans', sans-serif;
+	background-color: rgba(255, 158, 0, 0.2);
+	color: white;
+	border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 47px;
+	border-radius: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	opacity: 0.8;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+nav button:hover {
+	opacity: 1;
+	transform: translateY(-3px);
+}
+nav {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+/* Main */
+
+.Plate {
+	position: relative;
+}
+
+/* MC text */
+
+.text-mc {
+	display: flex;
+	margin-top: 52px;
+}
+.text-mc p {
+	font-family: 'Alumni Sans', sans-serif;
+}
+.text-mc p:nth-child(2) {
+	color: #ff9e00;
+	font-weight: bold;
+	font-size: 96px;
+	align-self: self-end;
+	margin-right: 40px;
+	margin-left: 40px;
+}
+.text-mc p:nth-child(1),
+.text-mc p:nth-child(3) {
+	font-size: 128px;
+	font-weight: bold;
+	color: transparent;
+	-webkit-text-stroke: 1px #ff9e00;
+}
+
+/* Main Char and info-text */
+
+.char-info {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 10%;
+}
+.MC-model img {
+	width: 385px;
+}
+.MC-model {
+	align-items: center;
+	text-align: center;
+	margin-left: 2%;
+	margin-top: -10%;
+}
+.MC-model p {
+	font-family: 'Alumni Sans', sans-serif;
+	font-weight: bold;
+	font-size: 48px;
+	color: #ff9e00;
+}
+.main_char_text {
+	width: 60%;
+	margin-right: 5%;
+}
+.main_char_text p {
+	font-family: 'Alumni Sans', sans-serif;
+	color: #ffb488;
+	font-weight: bold;
+	font-size: 64px;
+	margin-top: 8%;
+}
+
+/* add-info */
+
+.add-info {
+	width: 93%;
+	height: 16%;
+	background: rgba(110, 69, 43, 0.4);
+	border-radius: 31px;
+	margin-top: 10%;
+}
+.add-info div p {
+	font-family: 'Alumni Sans', sans-serif;
+	font-weight: bold;
+	font-size: 40px;
+	padding-top: 2%;
+	padding-bottom: 2%;
+	padding-left: 5%;
+	padding-right: 5%;
+	color: #ffb488;
+}
+.ff9e00 {
+	color: #ff9e00;
+}

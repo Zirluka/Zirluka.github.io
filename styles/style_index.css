@@ -1,0 +1,405 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: 'Alumni Sans', sans-serif;
+	background-color: #6e452b;
+	color: white;
+	margin: 0 auto;
+}
+
+header {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+}
+main {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+main,
+.about {
+	width: 100%;
+}
+
+/* header */
+/* navigation */
+nav a button {
+	font-family: 'Alumni Sans', sans-serif;
+	background-color: rgba(255, 158, 0, 0.2);
+	color: white;
+	border: none;
+	padding-left: 10px;
+	padding-right: 10px;
+	margin-left: 47px;
+	border-radius: 20px;
+	font-weight: bold;
+	cursor: pointer;
+	opacity: 0.8;
+	font-size: 40px;
+	font-weight: bold;
+}
+
+nav button:hover {
+	opacity: 1;
+	transform: translateY(-3px);
+}
+nav {
+	margin-top: 10px;
+}
+
+/* main */
+/* section image-of-game */
+.main-image {
+	width: 100%;
+	height: auto;
+	display: block;
+}
+.image-of-game {
+	width: 100%;
+	margin-top: 10px;
+	position: relative;
+}
+.text-on-image {
+	font-family: 'Antonio', sans-serif;
+	position: absolute;
+	width: 545px;
+	height: 83px;
+	top: 26.5%;
+	left: 50%;
+	transform: translateX(-50%);
+	text-align: center;
+	font-size: 64px;
+	color: #ff9e00;
+}
+.text-on-image span {
+	font-size: 32px;
+	color: #fa6509;
+}
+
+/* section about */
+.about {
+	display: flex;
+	flex-direction: column;
+	height: 523px;
+}
+.all-about {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-top: 80px;
+	gap: 40px;
+}
+.game-icon {
+	height: 160px;
+	width: 160px;
+	border-radius: 30px;
+}
+.about-place {
+	display: flex;
+	width: 1161px;
+	height: 160px;
+	border-radius: 30px;
+	background-color: rgba(255, 158, 0, 0.2);
+}
+.question-mark {
+	position: relative;
+	font-family: 'Anton SC', sans-serif;
+	font-size: 128px;
+	height: 151px;
+	width: 50px;
+	top: -23px;
+	left: 17px;
+	margin-right: 46px;
+}
+.about-text {
+	font-size: 32px;
+	font-weight: bold;
+	color: #ffb488;
+	margin-top: 23px;
+}
+.more-btn-link {
+	margin: 52px auto;
+	margin-bottom: 137px;
+	width: 298px;
+	height: 94px;
+}
+.more-button {
+	background-color: rgba(255, 158, 0, 0.2);
+	opacity: 0.8;
+	cursor: pointer;
+	color: white;
+	border: none;
+	padding: 15px 30px;
+	border-radius: 20px;
+	font-size: 48px;
+	text-decoration: none;
+	font-weight: bold;
+	width: 298px;
+	font-family: 'Alumni Sans', sans-serif;
+}
+.more-button:hover {
+	opacity: 1;
+}
+.separator {
+	width: 70.76%;
+	height: 4px;
+	background-color: #ffb488;
+	margin: 0 auto;
+}
+
+/* footer */
+
+footer {
+	display: flex;
+	flex-direction: column;
+	background-color: #80563b;
+	text-align: center;
+	width: 100%;
+	height: 387px;
+}
+.age-rating {
+	width: 412px;
+	height: 116px;
+	margin: 124px auto;
+	margin-bottom: 31px;
+	text-align: left;
+}
+.age-rating img {
+	height: 116px;
+	margin-left: 25px;
+}
+.age-rating img:nth-child(1) {
+	margin-left: 0;
+	width: 102px;
+}
+.age-rating img:nth-child(2) {
+	width: 100px;
+}
+.age-rating img:nth-child(3) {
+	width: 148px;
+}
+.footer_text {
+	font-size: 36px;
+	font-weight: bold;
+	text-align: center;
+	width: 750px;
+	margin: 0 auto;
+	color: #ffb488;
+}
+
+/* страница создатели */
+.navbar {
+	background: #743b1c;
+	text-align: center;
+	padding: 10px 0;
+}
+
+.navbar a {
+	color: white;
+	background: #d18024;
+	padding: 8px 14px;
+	margin: 0 10px;
+	border-radius: 8px;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.names,
+.roles {
+	width: 48%;
+}
+
+.names p {
+	color: #fff;
+	padding-left: 10px;
+	margin: 10px 0;
+}
+
+.roles p {
+	color: #ff9900;
+	margin: 10px 0;
+}
+
+footer {
+	text-align: center;
+	font-size: 13px;
+	padding: 25px;
+	color: #ff9900;
+	background: rgba(0, 0, 0, 0.6);
+}
+
+/*создатели*/
+
+.page-container {
+	position: relative;
+	width: 100%;
+	height: 100vh;
+	padding-top: 250px;
+	display: flex;
+	flex-direction: column;
+	padding-top: 20.76%;
+	padding-bottom: 14.51%;
+	box-sizing: border-box;
+}
+
+.background {
+	position: absolute;
+	top: 0;
+	left: 50%;
+	transform: translateX(-50%);
+	width: 100%; /* ширина примерно как хочешь */
+	height: auto; /* высота по пропорциям */
+	z-index: 0;
+	margin-top: 10px;
+}
+
+.container {
+	position: relative;
+	padding: 20px;
+	background: transparent;
+	font-size: 44px;
+	text-align: center;
+	color: #ff9e00;
+	padding-top: 0;
+	font-weight: bold;
+}
+
+.container h1 {
+	position: relative;
+	top: -110px;
+}
+
+.navbar {
+	position: relative;
+	z-index: 2;
+	padding: 20px; /* чтобы контент не прилегал к краям */
+}
+
+.team {
+	position: relative;
+	z-index: 1;
+	padding: 20px;
+	display: flex;
+	width: 92.72%;
+	height: auto;
+	border-radius: 30px;
+	background-color: #6e452b5e;
+	margin: 0 auto;
+	font-size: 48px;
+	margin-top: 210px;
+	top: -170px;
+}
+
+.name {
+	position: relative;
+	z-index: 1;
+	padding: 20px;
+	padding-top: 0;
+	margin-top: 0;
+	top: -170px;
+}
+
+.roles {
+	position: relative;
+	z-index: 1;
+	padding: 20px;
+}
+
+.blag {
+	position: relative;
+	z-index: 1;
+	font-size: 54px;
+	color: #ffb488;
+	font-weight: bold;
+	width: 1700px;
+	text-align: center;
+	padding-top: 2.5%;
+	margin: 0 auto;
+}
+
+.names {
+	/* убираем все встроенные отступы */
+	padding: 0;
+	margin: 0;
+}
+
+/* Базовый отступ между именами в любой группе */
+.names p {
+	margin: 100px 0;
+	padding-left: 0; /* не нужна внутренняя «коричневая» полоса */
+	border-left: none;
+	color: #ffb488;
+	font-weight: bold;
+}
+
+/* === 2.1. Первая группа (4 имени) === */
+.group4 {
+	position: relative;
+	background: url(./img/програмисты.svg) no-repeat left top;
+	background-size: auto 100%;
+	padding-left: 40px; /* отодвигаем текст вправо от скобки */
+	margin-bottom: 30px; /* пробел после 4 имён */
+}
+
+.group4 p:first-child {
+	margin-top: 0;
+}
+
+/* === 2.2. Вторая группа (2 имени) === */
+.group2 {
+	position: relative;
+	background: url(./img/реклама.svg) no-repeat left top;
+	background-size: auto 100%;
+	padding-left: 30px; /* подгоните под ширину вашей скобки */
+	margin-bottom: 30px; /* пробел после этих двух имён */
+}
+
+/* === 2.3. Третья группа (1 имя) === */
+.group1 {
+	position: relative;
+	background: url(./img/торговое\ дело.svg) no-repeat left top;
+	background-size: auto 100%;
+	padding-left: 20px; /* подгоните под ширину одиночной скобки */
+	margin-bottom: 30px; /* пробел после одного имени */
+}
+
+/* === 2.4. Четвёртая группа (2 имени) === */
+.group2b {
+	position: relative;
+	background: url(./img/дизайн.svg) no-repeat left top;
+	background-size: auto 100%;
+	padding-left: 30px; /* тот же отступ, что у группы .group2 */
+	/* после последней группы большого пробела не нужно, если это конец колонки */
+}
+
+/* === 2.5. Колонка ролей === */
+.roles {
+	/* убираем все встроенные отступы */
+	padding: 0;
+	margin: 0;
+}
+
+/* Базовый отступ между ролями */
+.roles p {
+	margin: 100px 0;
+	font-weight: bold;
+}
+
+.roles p:first-child {
+	margin-top: 0;
+}
+
+/* Ставим пробелы после 4-го, 6-го и 7-го <p> в .roles,
+   чтобы каждое «• …» стояло напротив своего имени */
+.roles p:nth-child(4),
+.roles p:nth-child(6),
+.roles p:nth-child(7) {
+	margin-bottom: 30px;
+}
